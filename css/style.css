@@ -15,3 +15,24 @@ body{
 pre[class*="language-"]:before, pre[class*="language-"]:after{
 	display:none;
 }
+
+pre[class*="language-"]{
+	-webkit-box-shadow: 0 0 0 0;
+	box-shadow: 0 0 0 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	border-left: 0px solid;
+	background: #F6F9FB;
+}
+
+pre[class*="language-"],pre[class*="language-"]{
+	max-height: 100%;
+}
+
+#FormattedCode{
+	border-left: 10px solid #358ccb;
+}
+

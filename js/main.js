@@ -4,13 +4,19 @@ $(function(){
 
 	codeInput.on('keyup',function(){
 		var code = codeInput.val();
-		codeOutput.empty().append('<pre class="language-javascript"><code class="language-javascript">'+code+'</code></pre>');
+		codeOutput.find('code').empty().append(code);
 		Prism.highlightAll();
 	});
 
 	$('.copyCode').on('click',function(e){
 		e.preventDefault();
         SelectText($('.codeContainer')[0]);
+	});
+
+	$('.selectLanguage').on('change',function(){
+		selectedLang = $(this).val();
+		$('pre,code').attr('class','language-'+selectedLang);
+		Prism.highlightAll();
 	});
 
 	function SelectText(element) {
