@@ -1,0 +1,17 @@
+body{
+	padding: 25px;
+}
+
+.hightlightLimiters{
+	display: block;
+	color:#FFF;
+	opacity:0;
+	line-height: 0;
+	font-size: 0px;
+	height: 0;
+	width: 0;
+}
+
+pre[class*="language-"]:before, pre[class*="language-"]:after{
+	display:none;
+}
