@@ -1,11 +1,15 @@
 # PrismJS-Evernote
-I use Evernote as my snippets manager and I need to copy formatted code into Evernote so I will use PrimsJS for that
+I use Evernote as my snippets manager and sometimes I need to copy formatted code into Evernote but
+some editors let you copy the code unformatted
 
-The basic idea is just to have a simple easy to use code formatter.
+So the basic idea is just to have a simple easy to use code formatter.
 
-You can paste a fomatted text (HTML/RTF) into Evernote and it will keep it style
+You can paste a fomatted text (HTML/RTF) into Evernote and it will keep the text styled
 So the problem is sometimes you can't find an easy to use code formatter easily or it might not look as you expected
 So here I will try to create a solution for that
+
+So what's [PrismJS](http://prismjs.com/) ?
+Prism is a syntax highlighter used by a lot of people
 
 ### Roadmap
 
