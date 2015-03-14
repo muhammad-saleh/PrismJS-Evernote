@@ -1,0 +1,11 @@
+{
+  "name": "EvernoteSyntaxHighlighter",
+  "description": "Simple syntax highlighter with a copy button to ease code insertion into Evernote",
+  "version": "0.1",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "width": 500,
+    "height": 660
+  }
+}
