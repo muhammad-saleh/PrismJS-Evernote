@@ -1,4 +1,4 @@
-# PrismJS-Evernote
+# PrismJS-Evernote b2
 I use Evernote as my snippets manager and sometimes I need to copy formatted code into Evernote but
 some editors let you copy the code unformatted
 
